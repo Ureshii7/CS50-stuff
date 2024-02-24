@@ -1,0 +1,9 @@
+Mario more is the 1st problem of Pset 1 from Week 1.
+The problem is to create a program that can create "Mario ladders" as I call them, to an input height.
+Mario Ladders that is :- 
+    #  #
+   ##  ##
+  ###  ###
+ ####  ####
+#####  #####   [This is to an input height of 5]
+The solution mostly uses for loops and functions.
