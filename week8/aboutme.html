@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles -->
+  <style>
+    body {
+      background-image: url('br.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative; /* Required for absolute positioning of overlay */
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here (0.5 for 50% opacity) */
+    }
+    .container {
+      padding: 50px;
+      color: white;
+      text-align: center;
+      position: relative; /* Ensure content appears above overlay */
+      z-index: 1; /* Ensure content appears above overlay */
+    }
+    h1 {
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    /* Added styles for the link */
+    .back-to-index {
+      text-decoration: none;
+      color: white;
+      position: relative;
+      display: inline-block;
+      margin-top: 20px; /* Add margin to create space */
+    }
+    .back-to-index:hover {
+      border-bottom: 2px solid white; /* Add line below on hover */
+    }
+    /* Added styles for the socials button */
+    .socials-button {
+      text-decoration: none;
+      background-color: white;
+      color: black;
+      border: none;
+      border-radius: 30px;
+      padding: 8px 16px;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 20px; /* Add margin at the bottom */
+      display: block; /* Make it a block element */
+    }
+    .socials-button:hover {
+      background-color: #f0f0f0; /* Light gray background on hover */
+    }
+  </style>
+</head>
+<body>
+  <!-- Overlay div -->
+  <div class="overlay"></div>
+
+  <div class="container">
+    <h1>About Me</h1>
+    <p>Hey there, I am Harshit Mukhedkar, I am 17 as of 2024 and I am from India.
+        <br>I had a pretty eventful and happening childhood. Being in India I had extreme <br>
+        influence of art and culture as well as the diverse film industry we have in India. <br>
+        Now talking about my hobbies and skills, as I said I had a happening childhood <br>
+        and that helped me create and learn new hobbies and skills.<br>
+        I could already code in Python, Java and C. Now through CS50 I learnt SQL and HTML.
+        After learning 6 computer languages I still feel like computer science or programming<br>
+        is not something that I wanted to do as a young and curious child. <br>
+        I always wanted to go in arts, create stuff that would create an impact,<br>
+        not only me but the whole of humanity.<br> 
+        But as it happens with all of us I just couldn't go for the dream!
+        But now I have the ambition to create the impact through the things I know.
+    </p>
+    <!-- Added link to socials page -->
+    <a href="socials.html" class="socials-button">Check out my Social Media</a>
+    <!-- Link back to index page -->
+    <a href="index.html" class="back-to-index">Back to Home</a>
+  </div>
+</body>
+</html>
