@@ -37,32 +37,26 @@
       font-size: 20px;
       font-weight: bold;
     }
-    /* Added styles for the link */
-    .back-to-index {
-      text-decoration: none;
-      color: white;
-      position: relative;
-      display: inline-block;
-      margin-top: 20px; /* Add margin to create space */
-    }
-    .back-to-index:hover {
-      border-bottom: 2px solid white; /* Add line below on hover */
-    }
-    /* Added styles for the socials button */
-    .socials-button {
+    /* Added styles for the socials and plans buttons */
+    .button-socials,
+    .button-plans {
       text-decoration: none;
       background-color: white;
       color: black;
       border: none;
       border-radius: 30px;
-      padding: 8px 16px;
+      padding: 10px 20px;
       font-size: 16px;
       font-weight: bold;
       margin-bottom: 20px; /* Add margin at the bottom */
-      display: block; /* Make it a block element */
     }
-    .socials-button:hover {
+    .button-socials:hover,
+    .button-plans:hover {
       background-color: #f0f0f0; /* Light gray background on hover */
+    }
+    /* Adjusted margin-top for back-to-home link */
+    .back-to-home {
+      margin-top: 40px; /* Add margin at the top */
     }
   </style>
 </head>
@@ -85,10 +79,14 @@
         But as it happens with all of us I just couldn't go for the dream!
         But now I have the ambition to create the impact through the things I know.
     </p>
-    <!-- Added link to socials page -->
-    <a href="socials.html" class="socials-button">Check out my Social Media</a>
-    <!-- Link back to index page -->
-    <a href="index.html" class="back-to-index">Back to Home</a>
+    <!-- Button to go to socials.html -->
+    <a href="socials.html" class="button-socials">Check out my Social Media</a>
+    <!-- Button to go to plans.html -->
+    <a href="plans.html" class="button-plans">See My Future Plans</a>
+    <!-- Link back to index.html -->
+    <div class="back-to-home">
+      <a href="index.html" class="back-to-home">Back to Home</a>
+    </div>
   </div>
 </body>
 </html>

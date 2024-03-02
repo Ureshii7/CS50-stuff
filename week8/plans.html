@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future Plans</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles -->
+  <style>
+    body {
+      background-image: url('galaxy.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative; /* Required for absolute positioning of overlay */
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here (0.5 for 50% opacity) */
+    }
+    .container {
+      text-align: center;
+      color: white;
+      position: relative; /* Ensure content appears above overlay */
+      z-index: 1; /* Ensure content appears above overlay */
+      padding-top: 50px; /* Add space at the top for navbar */
+    }
+    .plan {
+      margin-bottom: 20px;
+    }
+    /* Added styles for the highlighted link */
+    .link-aboutme {
+      font-weight: bold;
+      color: #007bff; /* Bootstrap's primary color */
+      text-decoration: underline;
+    }
+    .link-aboutme:hover {
+      background-color: #f0f0f0; /* Light gray background on hover */
+      border-radius: 5px; /* Add border-radius on hover */
+      padding: 3px 5px; /* Adjust padding on hover */
+    }
+  </style>
+</head>
+<body>
+  <!-- Overlay div -->
+  <div class="overlay"></div>
+
+  <div class="container">
+    <h1>My Future Plans</h1>
+    <div class="plan">
+      <h2>Future Projects</h2>
+      <p>
+        I have a great interest in both CS and physics, and I want to do something <br>
+        that combines the two fields together, like computational physics or physics simulations.<br>
+        I just can't fathom the idea that we can replicate the same events we see in real life <br>
+        happen in a virtual system. But it is true!
+      </p>
+    </div>
+    <div class="plan">
+      <h2>Life Goals</h2>
+      <p>
+        I still don't know what I'll be doing in the future, and I think nobody else does too.<br>
+        But I do know what I wanna be and where I wanna be. I have a strong desire to study in Japan<br>
+        I really admire their culture and just the lifestyles.
+      </p>
+    </div>
+    <!-- Add more plans as needed -->
+    <!-- Link to go back to aboutme.html -->
+    <div class="plan">
+      <a href="aboutme.html" class="link-aboutme">Back to About Me</a>
+    </div>
+  </div>
+</body>
+</html>
