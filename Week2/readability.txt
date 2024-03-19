@@ -1,0 +1,3 @@
+Readability is a problem from p-set of week 2.
+The problem asks to create such a logic that can read a given text and find out the level of ones reading skills.
+Code majorly uses terms off of libraries and defined functions.
