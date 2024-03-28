@@ -1,4 +1,4 @@
-##**Mario More.**
+#**Mario More.**
 
 Mario More is the 1st problem of set 1 from Week 1.
 The problem is to create a program that can create "Mario ladders" as I call them, to an input height.
